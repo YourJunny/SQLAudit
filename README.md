@@ -26,6 +26,15 @@ Preview every change, back it up automatically, and undo it any time.
 Download the file for your computer and open it. There's nothing else to install, and the app keeps
 itself up to date. When a new version comes out you'll get a **Restart to update** button.
 
+> [!WARNING]
+> **Your computer will warn you that this file isn't trusted. This is expected and you can safely continue.**
+>
+> Windows ("Windows protected your PC", "Unknown publisher") and macOS ("can't verify the app") show this
+> for every app that isn't code-signed. Code signing is a paid certificate that hasn't been bought yet. The
+> warning doesn't mean anything was found in the file: the download is safe. Just make sure you get it from
+> the links above or the [Releases page](https://github.com/YourJunny/SQLAudit/releases), not from another
+> site. See [Opening it for the first time](#opening-it-for-the-first-time) for how to get past it.
+
 ## How it works
 
 1. **Describe the change.** Type it in plain English, write the SQL yourself, or just edit cells in the grid.
